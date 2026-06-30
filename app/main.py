@@ -4,7 +4,7 @@ from app.github.repository_downloader import download_repository
 from app.github.file_loader import load_repository
 from app.github.repository_analyzer import analyze_repository
 
-from app.rag.document_processor import (
+from app.rag.document_processor import ( 
     create_documents,
     split_documents,
 )
