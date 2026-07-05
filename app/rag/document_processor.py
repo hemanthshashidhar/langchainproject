@@ -6,7 +6,7 @@ def create_documents(files):
 
     docs = []
 
-    for file in files:
+    for file in files: 
 
         docs.append(
             Document(
